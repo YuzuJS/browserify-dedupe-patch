@@ -1,0 +1,33 @@
+{
+  "name": "browserify-dedupe-patch",
+  "version": "0.0.1",
+  "description": "Patches bug where browserify mistakenly dedupes modules.",
+  "main": "patchDedupe.js",
+  "dependencies": {
+    "through2": "~0.6.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "contributors": [
+    {
+      "name": "Paul Bouzakis",
+      "email": "github@paulbouzakis.com",
+      "url": "http://paulbouzakis.com"
+    }
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/YuzuJS/browserify-dedupe-patch.git"
+  },
+  "keywords": [
+    "browserify",
+    "watchify"
+  ],
+  "author": "YuzuJS",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/YuzuJS/browserify-dedupe-patch/issues"
+  },
+  "homepage": "https://github.com/YuzuJS/browserify-dedupe-patch"
+}
